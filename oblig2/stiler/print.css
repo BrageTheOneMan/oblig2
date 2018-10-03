@@ -1,0 +1,31 @@
+p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+a {
+    display: none;
+}
+
+article figure {
+    float: right;
+    width: 300px;
+    clear: both;
+}
+
+article img {
+    width: 100%;
+}
+
+.figuretekst {
+    float: right;
+    text-align: center;
+}
+
+footer {
+    margin-top: 200px;
+}

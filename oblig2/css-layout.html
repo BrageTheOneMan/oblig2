@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>artikkel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="stiler/artikkel.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="stiler/print.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="bildet">
+            <h1>Brage Rochman Fagerlund Fridriksson <br> Sin fantastiske nettside!</h1>
+        </div>
+    </header>
+
+    <nav id="meny">
+        <a href="index.html">Hjem</a>
+        <a href="github.html">Git / Github</a>
+        <a href="media-og-mediatyper.html">Media Typer</a>
+        <a href="css-layout.html">CSS Layout</a>
+        <a href="skisse.html">Skisse av nettsiden</a>
+    </nav>
+
+    <main>
+        
+        <nav id="main">
+            <article>
+                <h2>CSS layouts</h2>
+                
+                <figure class="figuretekst">
+                    <img src="bilder/grid-fremvisning.png">
+                    <figcaption>Grid</figcaption>
+                </figure>
+
+                <figure class="figuretekst">
+                    <img src="bilder/flex-fremvisning.png">
+                    <figcaption>Flexboks</figcaption>
+                </figure>
+                
+                <p>
+                    Det finnes flere forskjellige CSS layouts, men det er bare to 
+                    som er gjeldende den dag i dag. Det som brukes i dag er grid og
+                     flexbox. Disse ble spesifikt laget for å erstatte float funksjonen.
+                </p>
+
+                <p>
+                    Float er ikke helt et layout, men mer en funksjon som kunne 
+                    bli «hacket» til å lage et komplisert layout. Det er et dårlig 
+                    valg til å basere et layout på, siden det er buggy og begrenset.
+                </p>
+
+                <p>
+                    Grid er et system som bruker kolonner og rader til å plassere 
+                    elementer innenfor disse. Det er det aller nyeste, og tar over 
+                    Flexbox (som brukes mest i dag) og Float (som er på vei ut). 
+                    Det er derfor ikke støttet på alle steder ennå, men det er 
+                    forventet at skal endres på. 
+                </p>
+
+                <p>
+                    Flexbox fungerer slik at det har en container som inneholder items. 
+                    Containeren kan legges ut horisontalt eller vertikalt. Child elementer 
+                    av containeren kan da «flexe» sine størrelser, for å fylle ubrukt område, 
+                    eller krympe for å ikke overlappe. Ved å da nøste flere containere i forskjellige 
+                    retninger, kan du oppnå komplekse layouts.
+                </p>
+
+                <p></p>
+
+            </article>
+        </nav>
+    </main>
+
+    <footer>
+        <p>Brage Fridriksson</p>
+        <p>bragge@live.no</p>
+    </footer>
+    
+</body>
+</html>
